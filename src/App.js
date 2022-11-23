@@ -1,17 +1,25 @@
 
 import './App.css';
-import ChildComponent from './component/ChildComponent'
-import Count from './component/Count';
+import Loop from './component/Loop';
+// import ChildComponent from './component/ChildComponent'
+// import Count from './component/Count';
+// import Form from './component/Form'
+// import Student from './component/Student(ConditionalRendering)';
 
 function App() {
   return (
     <div className="App">
-     <ChildComponent id={1}/>
-     <ChildComponent id={2}/>
-     <ChildComponent id={3}/>
-     <ChildComponent id={4}/>
-     <ChildComponent id={5}/>
-     <Count/>
+     
+     {/* <Form/> */}
+     
+     {/* { <Student
+				firstName='Srajan'
+				lastName='Sen'
+				batchNumber={12}
+				likesIceCream={true}
+			/> } */}
+
+      <Loop/>
     </div>
   );
 }
